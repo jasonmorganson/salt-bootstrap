@@ -22,5 +22,12 @@ OR
 ```
   curl -L http://bootstrap.saltstack.org | sudo sh -s -- -M -c salt-bootstrap
 ```
+Usage
+=====
 
+To salt the system run:
+
+```
+  salt-call state.highstate
+```
 
