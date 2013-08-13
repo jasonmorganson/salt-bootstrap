@@ -6,7 +6,14 @@ Salt bootstrap remote git states and pillar
 Setup
 =====
 
-Add `salt` to  `/etc/hosts` file; pointing to master (localhost)
+  1. Add `salt` to  `/etc/hosts` file; pointing to master (localhost)
+
+  2. Make sure GitPython is installed
+  
+    __Ubuntu__
+    ```
+      apt-get install python-git
+    ```
 
 Installation
 ============
